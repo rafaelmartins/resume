@@ -1,0 +1,48 @@
+/*
+ * :Author: Rafael G. Martins
+ * :Contact: rafael@rafaelmartins.eng.br
+ * :Copyright: This stylesheet has been placed in the public domain.
+ *
+ * Stylesheet for use with Docutils to build the HTML version of my
+ * resume.
+ *
+ * */
+
+@import url(html4css1.css);
+
+body {
+	font-family: "Georgia", serif;
+	font-size: 17px;
+	color: #000; 
+}
+
+a {
+	color: #036;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+table.docutils, table.docutils td, table.docutils tr {
+	border: 0;
+}
+
+table.docutils {
+	text-align: center;
+	margin: 0 auto;
+}
+
+table.docutils td {
+	text-align: left;
+}
+
+div.section {
+	width: 80%;
+	margin: 0 auto;
+}
+
+div.footer {
+	text-align: center;
+}

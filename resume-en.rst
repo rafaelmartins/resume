@@ -38,6 +38,13 @@ Relevant experience
 - Worked during 3 months developing g-octave_, for Gentoo Linux
 
 
+Languages
+---------
+
+- Portuguese (*Mother tongue*): comprehends well, speaks well, reads well, writes well
+- English: comprehends reasonably, speaks reasonably, reads well, writes well
+
+
 Skills
 ------
 

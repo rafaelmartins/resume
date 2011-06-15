@@ -36,12 +36,17 @@ resume-%.pdf: resume-%.txt
 txt: $(addsuffix .txt, $(foreach lang, $(LANGUAGES), $(addsuffix $(lang), resume-)))
 
 .PHONY: html
-html: $(addsuffix .html, $(foreach lang, $(LANGUAGES), $(addsuffix $(lang), resume-)))
+html: txt $(addsuffix .html, $(foreach lang, $(LANGUAGES), $(addsuffix $(lang), resume-)))
 
 .PHONY: pdf
-pdf: $(addsuffix .pdf, $(foreach lang, $(LANGUAGES), $(addsuffix $(lang), resume-)))
+pdf: txt $(addsuffix .pdf, $(foreach lang, $(LANGUAGES), $(addsuffix $(lang), resume-)))
 
 .PHONY: clean
 clean:
 	$(RM) -v *.txt *.html *.pdf
+
+.PHONY: upload
+upload: all
+	ssh rafael@walrus.rafaelmartins.com -p 2234 "mkdir -p public_html/resume/"
+	scp -P 2234 *.{txt,html,pdf,css} rafael@walrus.rafaelmartins.com:public_html/resume/
 

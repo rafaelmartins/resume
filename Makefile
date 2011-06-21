@@ -5,8 +5,8 @@
 # License: BSD (http://www.opensource.org/licenses/bsd-license.php)
 #
 
-LANGUAGES = en
-FULL_LANGUAGES = en="English"
+LANGUAGES = en pt_br
+FULL_LANGUAGES = en="English" pt_br="Brazilian Portuguese"
 
 SED = sed
 RST2HTML = rst2html.py --generator --date --time --cloak-email-addresses \
@@ -45,7 +45,7 @@ index.html: index.rst $(TXT_TARGETS) $(HTML_TARGETS) $(PDF_TARGETS)
 	echo "-----"; \
 	echo ""; \
 	for lang in $(FULL_LANGUAGES); do \
-		echo -n "$${lang##*=} ("; \
+		echo -n "- $${lang##*=} ("; \
 		for filetype in txt html pdf; do \
 			echo -n "\`$${filetype} <resume-$${lang%%=*}.$${filetype}>\`_"; \
 			if [[ $${filetype} != pdf ]]; then \

@@ -30,12 +30,12 @@ resume-%.txt: resume-%.rst
 resume-%.html: resume-%.txt
 	$(RST2HTML) \
 		--source-link \
-		--language=$(shell echo $< | sed -e 's/resume-\([^.-]\+\)\.txt/\1/') \
+		--language=$(shell echo $< | $(SED) -e 's/resume-\([^.-]\+\)\.txt/\1/') \
 		$< $@
 
 resume-%.pdf: resume-%.txt
 	$(RST2PDF) \
-		--language=$(shell echo $< | sed -e 's/resume-\([^.-]\+\)\.txt/\1/') \
+		--language=$(shell echo $< | $(SED) -e 's/resume-\([^.-]\+\)\.txt/\1/') \
 		--output=$@ $<
 
 index.html: index.rst $(TXT_TARGETS) $(HTML_TARGETS) $(PDF_TARGETS)

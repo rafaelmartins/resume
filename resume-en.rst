@@ -60,7 +60,7 @@ Skills
 
 **Software Development**
 
-- Expert-level development in Python and intermediate-level development in C
+- Expert-level development in Python and advanced-level development in C
 - Codes in: Python, C, C++, Javascript, bash, PHP, Lua
 - Tools: Mercurial, Git, Bugzilla, Trac, Apache, Nginx, Postfix, GNU Autotools,
   Cmake, Pkgconfig, Subversion, CVS, MySQL, SQLite3, etc.
@@ -70,6 +70,8 @@ Skills
 
 Writing, Projects, and Links
 ----------------------------
+- blohg_ - A mercurial-based blogging engine
+- g-octave_ - A tool that generates and installs ebuilds for Octave-Forge on Gentoo Linux
 - Blog about Free Software and Engineering at http://rafaelmartins.eng.br/
 - This Resume_: Text_, PDF_, HTML_, Repository_ (You have revision
   NODEID__, updated DATE)
@@ -77,6 +79,7 @@ Writing, Projects, and Links
 - Projects: Are at http://hg.rafaelmartins.eng.br/ and
   http://labs.rafaelmartins.eng.br/
 
+.. _blohg: http://blohg.org/
 .. _Resume: http://rafaelmartins.eng.br/resume/
 .. _Text: http://walrus.rafaelmartins.com/~rafael/resume/resume-en.txt
 .. _HTML: http://walrus.rafaelmartins.com/~rafael/resume/resume-en.html

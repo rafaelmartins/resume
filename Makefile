@@ -6,14 +6,20 @@
 #
 
 LANGUAGES = en
+FULL_LANGUAGES = en="English"
 
 SED = sed
-RST2HTML = rst2html.py --generator --date --time --source-link \
-	--cloak-email-addresses --link-stylesheet --initial-header-level=2
+RST2HTML = rst2html.py --generator --date --time --cloak-email-addresses \
+	--link-stylesheet --stylesheet=style.css --initial-header-level=2
 RST2PDF = rst2pdf
 
+PREFIXES = $(foreach lang, $(LANGUAGES), $(addsuffix $(lang), resume-))
+TXT_TARGETS = $(addsuffix .txt, $(PREFIXES))
+HTML_TARGETS = $(addsuffix .html, $(PREFIXES)) style.css
+PDF_TARGETS = $(addsuffix .pdf, $(PREFIXES))
+
 .PHONY: all
-all: html pdf
+all: index.html
 
 resume-%.txt: resume-%.rst
 	$(SED) \
@@ -23,8 +29,8 @@ resume-%.txt: resume-%.rst
 
 resume-%.html: resume-%.txt
 	$(RST2HTML) \
+		--source-link \
 		--language=$(shell echo $< | sed -e 's/resume-\([^.-]\+\)\.txt/\1/') \
-		--stylesheet=style.css \
 		$< $@
 
 resume-%.pdf: resume-%.txt
@@ -32,21 +38,36 @@ resume-%.pdf: resume-%.txt
 		--language=$(shell echo $< | sed -e 's/resume-\([^.-]\+\)\.txt/\1/') \
 		--output=$@ $<
 
+index.html: index.rst $(TXT_TARGETS) $(HTML_TARGETS) $(PDF_TARGETS)
+	(cat index.rst; \
+	echo ""; \
+	echo "Files"; \
+	echo "-----"; \
+	echo ""; \
+	for lang in $(FULL_LANGUAGES); do \
+		echo -n "$${lang##*=} ("; \
+		for filetype in txt html pdf; do \
+			echo -n "\`$${filetype} <resume-$${lang%%=*}.$${filetype}>\`_"; \
+			if [[ $${filetype} != pdf ]]; then \
+				echo -n ", "; \
+			else \
+				echo ")"; \
+			fi; \
+		done; \
+	done) | $(RST2HTML) \
+		--report=3 --language=en > $@
+
+
 .PHONY: txt
-txt: $(addsuffix .txt, $(foreach lang, $(LANGUAGES), $(addsuffix $(lang), resume-)))
+txt: $(TXT_TARGETS)
 
 .PHONY: html
-html: txt $(addsuffix .html, $(foreach lang, $(LANGUAGES), $(addsuffix $(lang), resume-)))
+html: $(TXT_TARGETS) $(HTML_TARGETS)
 
 .PHONY: pdf
-pdf: txt $(addsuffix .pdf, $(foreach lang, $(LANGUAGES), $(addsuffix $(lang), resume-)))
+pdf: $(TXT_TARGETS) $(PDF_TARGETS)
 
 .PHONY: clean
 clean:
 	$(RM) -v *.txt *.html *.pdf
-
-.PHONY: upload
-upload: all
-	ssh rafael@walrus.rafaelmartins.com -p 2234 "mkdir -p public_html/resume/"
-	scp -P 2234 *.{txt,html,pdf,css} rafael@walrus.rafaelmartins.com:public_html/resume/
 

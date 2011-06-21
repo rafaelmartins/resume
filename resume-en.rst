@@ -78,9 +78,9 @@ Writing, Projects, and Links
   http://labs.rafaelmartins.eng.br/
 
 .. _Resume: http://rafaelmartins.eng.br/resume/
-.. _Text: http://walrus.rafaelmartins.eng.br/~rafael/resume/resume-en.txt
-.. _HTML: http://walrus.rafaelmartins.eng.br/~rafael/resume/resume-en.html
-.. _PDF: http://walrus.rafaelmartins.eng.br/~rafael/resume/resume-en.pdf
+.. _Text: http://walrus.rafaelmartins.com/~rafael/resume/resume-en.txt
+.. _HTML: http://walrus.rafaelmartins.com/~rafael/resume/resume-en.html
+.. _PDF: http://walrus.rafaelmartins.com/~rafael/resume/resume-en.pdf
 .. _Repository: http://hg.rafaelmartins.eng.br/resume/
 __ http://hg.rafaelmartins.eng.br/resume/rev/NODEID
 .. _Twitter: http://twitter.com/rafaelmartins/

@@ -48,7 +48,7 @@ index.html: index.rst $(TXT_TARGETS) $(HTML_TARGETS) $(PDF_TARGETS)
 		echo -n "- $${lang##*=} ("; \
 		for filetype in txt html pdf; do \
 			echo -n "\`$${filetype} <resume-$${lang%%=*}.$${filetype}>\`_"; \
-			if [[ $${filetype} != pdf ]]; then \
+			if [[ "$${filetype}" != "pdf" ]]; then \
 				echo -n ", "; \
 			else \
 				echo ")"; \

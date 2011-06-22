@@ -42,7 +42,7 @@ Idiomas
 -------
 
 - Português (*Idioma nativo*): compreende bem, fala bem, lê bem, escreve bem
-- English: compreende razoavelmente, fala razoavelmente, lê bem, escreve bem
+- Inglês: compreende razoavelmente, fala razoavelmente, lê bem, escreve bem
 
 
 Habilidades

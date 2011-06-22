@@ -3,7 +3,7 @@ Rafael Gonçalves Martins
 
 +----------------------------------------+----------------------------------------+
 | :Email: rafael@rafaelmartins.eng.br    | :Localização: São Carlos, SP, Brasil   |
-| :Website: http://rafaelmartins.eng.br/ | :Telefone: (19) 8300-8467              |
+| :Website: http://rafaelmartins.eng.br/ | :Telefone: 19 8300-8467                |
 +----------------------------------------+----------------------------------------+
 
 Objetivo

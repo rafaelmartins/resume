@@ -62,7 +62,7 @@ Skills
 
 - Expert-level development in Python and advanced-level development in C
 - Codes in: Python, C, C++, Javascript, bash, PHP, Lua
-- Tools: Mercurial, Git, Bugzilla, Trac, Apache, Nginx, Postfix, GNU Autotools,
+- Tools: Mercurial, Git, Trac, Bugzilla, Apache, Nginx, Postfix, GNU Autotools,
   Cmake, Pkgconfig, Subversion, CVS, MySQL, SQLite3, etc.
 - Platforms: Linux (Gentoo, Debian, Ubuntu), Windows (2000, XP, 7)
 - Libraries: Qt, GTK, Glib, Readline, Libedit, Zlib, Xenomai, RTAI, etc.
@@ -76,14 +76,13 @@ Writing, Projects, and Links
 - This Resume_: Text_, PDF_, HTML_, Repository_ (You have revision
   NODEID__, updated DATE)
 - Profiles: Twitter_, Linkedin_, Facebook_
-- Projects: Are at http://hg.rafaelmartins.eng.br/ and
-  http://labs.rafaelmartins.eng.br/
+- Projects: Are at http://hg.rafaelmartins.eng.br/
 
 .. _blohg: http://blohg.org/
 .. _Resume: http://rafaelmartins.eng.br/resume/
-.. _Text: http://walrus.rafaelmartins.com/~rafael/resume/resume-en.txt
-.. _HTML: http://walrus.rafaelmartins.com/~rafael/resume/resume-en.html
-.. _PDF: http://walrus.rafaelmartins.com/~rafael/resume/resume-en.pdf
+.. _Text: resume-en.txt
+.. _HTML: resume-en.html
+.. _PDF: resume-en.pdf
 .. _Repository: http://hg.rafaelmartins.eng.br/resume/
 __ http://hg.rafaelmartins.eng.br/resume/rev/NODEID
 .. _Twitter: http://twitter.com/rafaelmartins/

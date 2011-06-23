@@ -62,7 +62,7 @@ Habilidades
 
 - Nível *expert* em desenvolvimento em Python e nível avançado em desenvolvimento em C
 - Programação em: Python, C, C++, Javascript, bash, PHP, Lua
-- Ferramentas: Mercurial, Git, Bugzilla, Trac, Apache, Nginx, Postfix, GNU Autotools,
+- Ferramentas: Mercurial, Git, Trac, Bugzilla, Apache, Nginx, Postfix, GNU Autotools,
   Cmake, Pkgconfig, Subversion, CVS, MySQL, SQLite3, etc.
 - Plataformas: Linux (Gentoo, Debian, Ubuntu), Windows (2000, XP, 7)
 - Bibliotecas: Qt, GTK, Glib, Readline, Libedit, Zlib, Xenomai, RTAI, etc.
@@ -74,17 +74,16 @@ Publicações, Projetos, e Links
 - g-octave_ - Uma ferramanta que gera e instala *ebuilds* para pacotes do
   Octave-forge no Gentoo Linux
 - Blog sobre Software Livre e Engenharia em http://rafaelmartins.eng.br/
-- Este `Currículo`_: Texto_, PDF_, HTML_, `Repositório`_ (Você tem a revisão
+- Este `Currículo`_: `Texto puro`_, PDF_, HTML_, `Repositório`_ (Você tem a revisão
   NODEID__, atualizada em DATE)
 - Perfis: Twitter_, Linkedin_, Facebook_
-- Projetos: Estão em http://hg.rafaelmartins.eng.br/ e
-  http://labs.rafaelmartins.eng.br/
+- Projetos: Estão em http://hg.rafaelmartins.eng.br/
 
 .. _blohg: http://blohg.org/
 .. _`Currículo`: http://rafaelmartins.eng.br/resume/
-.. _Texto: http://walrus.rafaelmartins.com/~rafael/resume/resume-en.txt
-.. _HTML: http://walrus.rafaelmartins.com/~rafael/resume/resume-en.html
-.. _PDF: http://walrus.rafaelmartins.com/~rafael/resume/resume-en.pdf
+.. _`Texto puro`: resume-pt_br.txt
+.. _HTML: resume-pt_br.html
+.. _PDF: resume-pt_br.pdf
 .. _`Repositório`: http://hg.rafaelmartins.eng.br/resume/
 __ http://hg.rafaelmartins.eng.br/resume/rev/NODEID
 .. _Twitter: http://twitter.com/rafaelmartins/

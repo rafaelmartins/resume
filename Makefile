@@ -6,7 +6,6 @@
 #
 
 LANGUAGES = en pt_br
-FULL_LANGUAGES = en="English" pt_br="Brazilian Portuguese"
 
 SED = sed
 RST2HTML = rst2html.py --generator --date --time --cloak-email-addresses \
@@ -19,7 +18,7 @@ HTML_TARGETS = $(addsuffix .html, $(PREFIXES)) style.css
 PDF_TARGETS = $(addsuffix .pdf, $(PREFIXES))
 
 .PHONY: all
-all: index.html
+all: html pdf
 
 resume-%.txt: resume-%.rst
 	$(SED) \
@@ -37,26 +36,6 @@ resume-%.pdf: resume-%.txt
 	$(RST2PDF) \
 		--language=$(shell echo $< | $(SED) -e 's/resume-\([^.-]\+\)\.txt/\1/') \
 		--output=$@ $<
-
-index.html: index.rst $(TXT_TARGETS) $(HTML_TARGETS) $(PDF_TARGETS)
-	(cat index.rst; \
-	echo ""; \
-	echo "Files"; \
-	echo "-----"; \
-	echo ""; \
-	for lang in $(FULL_LANGUAGES); do \
-		echo -n "- $${lang##*=} ("; \
-		for filetype in txt html pdf; do \
-			echo -n "\`$${filetype} <resume-$${lang%%=*}.$${filetype}>\`_"; \
-			if [[ "$${filetype}" != "pdf" ]]; then \
-				echo -n ", "; \
-			else \
-				echo ")"; \
-			fi; \
-		done; \
-	done) | $(RST2HTML) \
-		--report=3 --language=en > $@
-
 
 .PHONY: txt
 txt: $(TXT_TARGETS)

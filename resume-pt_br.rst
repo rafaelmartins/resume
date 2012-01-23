@@ -1,20 +1,23 @@
 Rafael Gonçalves Martins
 ========================
 
-+----------------------------------------+----------------------------------------+
-| :Email: rafael@rafaelmartins.eng.br    | :Localização: São Carlos, SP, Brasil   |
-| :Website: http://rafaelmartins.eng.br/ | :Telefone: 19 8300-8467                |
-+----------------------------------------+----------------------------------------+
++----------------------------------------+--------------------------------------+
+| :Email: rafael@rafaelmartins.eng.br    | :Localização: São Paulo/SP, Brasil   |
+| :Website: http://rafaelmartins.eng.br/ | :Telefone: 19 8300-8467              |
++----------------------------------------+--------------------------------------+
+
 
 Objetivo
----------
+--------
 Uma vaga para período integral, que possa beneficiar-se de minha formação multidisciplinar
 e de minha experiência com desenvolvimento de Software Livre.
 
+
 Formação
 --------
-Centro Federal de Educação Tecnológica de Minas Gerais, *2006 - presente (Julho de 2011)*
+Centro Federal de Educação Tecnológica de Minas Gerais, *2006 - 2011*
   Engenharia de Controle e Automação.
+
 
 Experiência relevante
 ---------------------
@@ -31,7 +34,6 @@ Experiência relevante
 .. _g-octave: http://g-octave.org/
 .. _`subprojeto Eletrônica`: http://www.gentoo.org/proj/en/science/electronics/
 .. _`pacotes aleatórios`: http://walrus.rafaelmartins.com/~rafael/packages.txt
-
 
 **Desenvolvedor (Google Summer of Code), Google Inc.**, *2010*
 
@@ -56,7 +58,6 @@ Habilidades
 - Softwares para *Electronic Design Automation* (EDA): Kicad, gEDA, Orcad, Multisim
 - Softwares para automação industrial: WINCC, Step7, Indusoft Web Studio, Automation Studio
 - Softwares para computação numérica: GNU Octave, MATLAB
-
 
 **Desenvolvimento de Software**
 

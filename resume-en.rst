@@ -1,20 +1,23 @@
 Rafael Gonçalves Martins
 ========================
 
-+----------------------------------------+-------------------------------------+
-| :Email: rafael@rafaelmartins.eng.br    | :Location: São Carlos, SP, Brazil   |
-| :Website: http://rafaelmartins.eng.br/ | :Phone: 55-19-8300-8467             |
-+----------------------------------------+-------------------------------------+
++----------------------------------------+-----------------------------------+
+| :Email: rafael@rafaelmartins.eng.br    | :Location: São Paulo/SP, Brazil   |
+| :Website: http://rafaelmartins.eng.br/ | :Phone: 55-19-8300-8467           |
++----------------------------------------+-----------------------------------+
+
 
 Objective
 ---------
 A full-time position that can benefit of my multidisciplinary background and my
 experience with Free Software development.
 
+
 School
 ------
-Federal Center for Technological Education of Minas Gerais, *2006 - present (July 2011)*
+Federal Center for Technological Education of Minas Gerais, *2006 - 2011*
   Control and Automation Engineering.
+
 
 Relevant experience
 -------------------
@@ -31,7 +34,6 @@ Relevant experience
 .. _g-octave: http://g-octave.org/
 .. _`Electronics subproject`: http://www.gentoo.org/proj/en/science/electronics/
 .. _`random packages`: http://walrus.rafaelmartins.com/~rafael/packages.txt
-
 
 **Developer (Google Summer of Code), Google Inc.**, *2010*
 
@@ -56,7 +58,6 @@ Skills
 - EDA softwares: Kicad, gEDA, Orcad, Multisim
 - Automation-related softwares: WINCC, Step7, Indusoft Web Studio, Automation Studio
 - Numerical computation softwares: GNU Octave, MATLAB
-
 
 **Software Development**
 

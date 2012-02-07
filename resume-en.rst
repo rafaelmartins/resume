@@ -35,6 +35,12 @@ Relevant experience
 .. _`Electronics subproject`: http://www.gentoo.org/proj/en/science/electronics/
 .. _`random packages`: http://walrus.rafaelmartins.com/~rafael/packages.txt
 
+**Developer (Google Summer of Code), Google Inc.**, *2011*
+
+- Worked during 3 months developing distpatch_, for Gentoo Linux
+
+.. _distpatch: http://www.gentoo.org/proj/en/infrastructure/distpatch/
+
 **Developer (Google Summer of Code), Google Inc.**, *2010*
 
 - Worked during 3 months developing g-octave_, for Gentoo Linux

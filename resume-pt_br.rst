@@ -35,6 +35,12 @@ Experiência relevante
 .. _`subprojeto Eletrônica`: http://www.gentoo.org/proj/en/science/electronics/
 .. _`pacotes aleatórios`: http://walrus.rafaelmartins.com/~rafael/packages.txt
 
+**Desenvolvedor (Google Summer of Code), Google Inc.**, *2011*
+
+- Trabalhou durante 3 meses desenvolvendo o distpatch_, para o Gentoo Linux
+
+.. _distpatch: http://www.gentoo.org/proj/en/infrastructure/distpatch/
+
 **Desenvolvedor (Google Summer of Code), Google Inc.**, *2010*
 
 - Trabalhou durante 3 meses desenvolvendo o g-octave_, para o Gentoo Linux

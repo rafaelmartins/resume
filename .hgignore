@@ -1,1 +1,1 @@
-\.(txt|html|pdf)$
+^resume-.*\.(txt|html|pdf)$

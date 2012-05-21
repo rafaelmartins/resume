@@ -3,7 +3,6 @@ fontsAlias:
     stdBold: DroidSans-Bold
     stdSans: DroidSans
     stdSansBold: DroidSans-Bold
-    stdMono: DroidSansMono
 
 styles:
     title:

@@ -15,6 +15,7 @@ PREFIXES = $(foreach lang, $(LANGUAGES), $(addsuffix $(lang), resume-))
 TXT_TARGETS = $(addsuffix .txt, $(PREFIXES))
 HTML_TARGETS = $(addsuffix .html, $(PREFIXES))
 PDF_TARGETS = $(addsuffix .pdf, $(PREFIXES))
+FONTS = static/fonts/DroidSans.ttf static/fonts/DroidSans-Bold.ttf
 
 .PHONY: all
 all: html pdf
@@ -25,15 +26,15 @@ resume-%.txt: resume-%.rst
 		-e "s/DATE/$(shell hg log -r . --template '{date|shortdate}')/" \
 		$< > $@
 
-resume-%.html: resume-%.txt static/html4css1.css static/resume.css
+resume-%.html: resume-%.txt static/html4css1.css static/resume.css $(FONTS)
 	$(RST2HTML) --generator --date --time --cloak-email-addresses --source-link \
 		--embed-stylesheet --initial-header-level=2 \
 		--stylesheet-path=static/html4css1.css,static/resume.css \
 		--language=$(shell echo $< | $(SED) -e 's/resume-\([^.-]\+\)\.txt/\1/') \
 		$< $@
 
-resume-%.pdf: resume-%.txt static/resume.style
-	$(RST2PDF) --stylesheets=static/resume.style \
+resume-%.pdf: resume-%.txt static/resume.style $(FONTS)
+	$(RST2PDF) --stylesheets=static/resume.style --font-path=static/fonts \
 		--language=$(shell echo $< | $(SED) -e 's/resume-\([^.-]\+\)\.txt/\1/') \
 		--output=$@ $<
 

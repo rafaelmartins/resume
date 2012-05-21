@@ -1,10 +1,10 @@
 Rafael Gonçalves Martins
 ========================
 
-+----------------------------------------+-----------------------------------+
-| :Email: rafael@rafaelmartins.eng.br    | :Location: São Paulo/SP, Brazil   |
-| :Website: http://rafaelmartins.eng.br/ | :Phone: 55-19-8300-8467           |
-+----------------------------------------+-----------------------------------+
+:Email: rafael@rafaelmartins.eng.br
+:Website: http://rafaelmartins.eng.br/
+:Location: São Paulo/SP, Brazil
+:Phone: 55-19-8300-8467
 
 
 Objective
@@ -15,15 +15,19 @@ experience with Free Software development.
 
 School
 ------
+
 Federal Center for Technological Education of Minas Gerais, *2006 - 2011*
-  Control and Automation Engineering.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Bachelor's Degree: Control and Automation Engineering.
 
 
 Relevant experience
 -------------------
 *For full experience details please contact me by email.*
 
-**Developer (volunteer), Gentoo Linux**, *2010 - present*
+
+Developer (volunteer), Gentoo Linux, *2010 - present*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Maintain packages of the following herds: sci-electronics, sci-mathematics,
   python
@@ -35,13 +39,17 @@ Relevant experience
 .. _`Electronics subproject`: http://www.gentoo.org/proj/en/science/electronics/
 .. _`random packages`: http://walrus.rafaelmartins.com/~rafael/packages.txt
 
-**Developer (Google Summer of Code), Google Inc.**, *2011*
+
+Developer (Google Summer of Code), Google Inc., *2011*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Worked during 3 months developing distpatch_, for Gentoo Linux
 
 .. _distpatch: http://www.gentoo.org/proj/en/infrastructure/distpatch/
 
-**Developer (Google Summer of Code), Google Inc.**, *2010*
+
+Developer (Google Summer of Code), Google Inc., *2010*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Worked during 3 months developing g-octave_, for Gentoo Linux
 
@@ -56,7 +64,8 @@ Languages
 Skills
 ------
 
-**Engineering**
+Engineering
+~~~~~~~~~~~
 
 - Simulation and modeling of control systems
 - Design of industrial controllers
@@ -65,7 +74,8 @@ Skills
 - Automation-related softwares: WINCC, Step7, Indusoft Web Studio, Automation Studio
 - Numerical computation softwares: GNU Octave, MATLAB
 
-**Software Development**
+Software Development
+~~~~~~~~~~~~~~~~~~~~
 
 - Expert-level development in Python and advanced-level development in C
 - Codes in: Python, C, C++, Javascript, bash, PHP, Lua

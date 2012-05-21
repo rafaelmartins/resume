@@ -8,13 +8,12 @@
 LANGUAGES = en pt_br
 
 SED = sed
-RST2HTML = rst2html.py --generator --date --time --cloak-email-addresses \
-	--link-stylesheet --stylesheet=style.css --initial-header-level=2
+RST2HTML = rst2html.py
 RST2PDF = rst2pdf
 
 PREFIXES = $(foreach lang, $(LANGUAGES), $(addsuffix $(lang), resume-))
 TXT_TARGETS = $(addsuffix .txt, $(PREFIXES))
-HTML_TARGETS = $(addsuffix .html, $(PREFIXES)) style.css
+HTML_TARGETS = $(addsuffix .html, $(PREFIXES))
 PDF_TARGETS = $(addsuffix .pdf, $(PREFIXES))
 
 .PHONY: all
@@ -26,14 +25,15 @@ resume-%.txt: resume-%.rst
 		-e "s/DATE/$(shell hg log -r . --template '{date|shortdate}')/" \
 		$< > $@
 
-resume-%.html: resume-%.txt
-	$(RST2HTML) \
-		--source-link \
+resume-%.html: resume-%.txt static/html4css1.css static/resume.css
+	$(RST2HTML) --generator --date --time --cloak-email-addresses --source-link \
+		--embed-stylesheet --initial-header-level=2 \
+		--stylesheet-path=static/html4css1.css,static/resume.css \
 		--language=$(shell echo $< | $(SED) -e 's/resume-\([^.-]\+\)\.txt/\1/') \
 		$< $@
 
-resume-%.pdf: resume-%.txt
-	$(RST2PDF) \
+resume-%.pdf: resume-%.txt static/resume.style
+	$(RST2PDF) --stylesheets=static/resume.style \
 		--language=$(shell echo $< | $(SED) -e 's/resume-\([^.-]\+\)\.txt/\1/') \
 		--output=$@ $<
 
@@ -41,10 +41,10 @@ resume-%.pdf: resume-%.txt
 txt: $(TXT_TARGETS)
 
 .PHONY: html
-html: $(TXT_TARGETS) $(HTML_TARGETS)
+html: $(HTML_TARGETS)
 
 .PHONY: pdf
-pdf: $(TXT_TARGETS) $(PDF_TARGETS)
+pdf: $(PDF_TARGETS)
 
 .PHONY: clean
 clean:

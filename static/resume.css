@@ -1,4 +1,4 @@
-/*
+/**
  * :Author: Rafael G. Martins
  * :Contact: rafael@rafaelmartins.eng.br
  * :Copyright: This stylesheet has been placed in the public domain.
@@ -6,14 +6,22 @@
  * Stylesheet for use with Docutils to build the HTML version of my
  * resume.
  *
- * */
+ */
 
-@import url(html4css1.css);
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
 
 body {
-	font-family: "Georgia", serif;
+	font-family: "Droid Sans", "Georgia", sans-serif;
 	font-size: 17px;
 	color: #000; 
+}
+
+h2 {
+	margin-top: 50px;
+}
+
+h3 {
+	margin-top: 30px;
 }
 
 a {
@@ -25,24 +33,33 @@ a:hover {
 	text-decoration: underline;
 }
 
-table.docutils, table.docutils td, table.docutils tr {
+table.docinfo, table.docinfo td, table.docinfo tr {
 	border: 0;
 }
 
-table.docutils {
+table.docinfo {
 	text-align: center;
 	margin: 0 auto;
+	margin-top: 30px;
 }
 
-table.docutils td {
+table.docinfo th.docinfo-name {
+	text-align: right;
+}
+
+table.docinfo td.field-body {
 	text-align: left;
 }
 
-div.section {
+div.document {
 	width: 80%;
 	margin: 0 auto;
 }
 
 div.footer {
 	text-align: center;
+}
+
+hr {
+	margin-top: 50px;
 }

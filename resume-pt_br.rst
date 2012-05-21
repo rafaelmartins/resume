@@ -1,10 +1,10 @@
 Rafael Gonçalves Martins
 ========================
 
-+----------------------------------------+--------------------------------------+
-| :Email: rafael@rafaelmartins.eng.br    | :Localização: São Paulo/SP, Brasil   |
-| :Website: http://rafaelmartins.eng.br/ | :Telefone: 19 8300-8467              |
-+----------------------------------------+--------------------------------------+
+:Email: rafael@rafaelmartins.eng.br
+:Website: http://rafaelmartins.eng.br/
+:Localização: São Paulo/SP, Brasil
+:Telefone: 19 8300-8467
 
 
 Objetivo
@@ -15,15 +15,19 @@ e de minha experiência com desenvolvimento de Software Livre.
 
 Formação
 --------
+
 Centro Federal de Educação Tecnológica de Minas Gerais, *2006 - 2011*
-  Engenharia de Controle e Automação.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Curso: Engenharia de Controle e Automação.
 
 
 Experiência relevante
 ---------------------
 *Para mais detalhes relativos a experiência entre em contato por e-mail*
 
-**Desenvolvedor (voluntário), Gentoo Linux**, *2010 - presente*
+
+Desenvolvedor (voluntário), Gentoo Linux, *2010 - presente*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Mantém pacotes dos seguintes *herds*: sci-electronics, sci-mathematics,
   python
@@ -35,13 +39,17 @@ Experiência relevante
 .. _`subprojeto Eletrônica`: http://www.gentoo.org/proj/en/science/electronics/
 .. _`pacotes aleatórios`: http://walrus.rafaelmartins.com/~rafael/packages.txt
 
-**Desenvolvedor (Google Summer of Code), Google Inc.**, *2011*
+
+Desenvolvedor (Google Summer of Code), Google Inc., *2011*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Trabalhou durante 3 meses desenvolvendo o distpatch_, para o Gentoo Linux
 
 .. _distpatch: http://www.gentoo.org/proj/en/infrastructure/distpatch/
 
-**Desenvolvedor (Google Summer of Code), Google Inc.**, *2010*
+
+Desenvolvedor (Google Summer of Code), Google Inc., *2010*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Trabalhou durante 3 meses desenvolvendo o g-octave_, para o Gentoo Linux
 
@@ -56,7 +64,8 @@ Idiomas
 Habilidades
 -----------
 
-**Engenharia**
+Engenharia
+~~~~~~~~~~
 
 - Simulação e modelagem de sistemas de controle
 - Desenvolvimento de controladores industriais
@@ -65,7 +74,8 @@ Habilidades
 - Softwares para automação industrial: WINCC, Step7, Indusoft Web Studio, Automation Studio
 - Softwares para computação numérica: GNU Octave, MATLAB
 
-**Desenvolvimento de Software**
+Desenvolvimento de Software
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Nível *expert* em desenvolvimento em Python e nível avançado em desenvolvimento em C
 - Programação em: Python, C, C++, Javascript, bash, PHP, Lua

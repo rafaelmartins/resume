@@ -7,12 +7,6 @@ Rafael Gonçalves Martins
 :Phone: 55-19-8300-8467
 
 
-Objective
----------
-A full-time position that can benefit of my multidisciplinary background and my
-experience with Free Software development.
-
-
 School
 ------
 
@@ -24,6 +18,22 @@ Bachelor's Degree: Control and Automation Engineering.
 Relevant experience
 -------------------
 *For full experience details please contact me by email.*
+
+
+Software Engineer, Collabora Ltd., *2012 - present*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Software development
+- Quality assurance
+
+
+Project Analist, Siemens Ltda, *2011 - 2012*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Software development (HMI_, PLC_ and dedicated software)
+
+.. _HMI: http://en.wikipedia.org/wiki/Human_machine_interface
+.. _PLC: http://en.wikipedia.org/wiki/Programmable_logic_controller
 
 
 Developer (volunteer), Gentoo Linux, *2010 - present*
@@ -46,6 +56,12 @@ Developer (Google Summer of Code), Google Inc., *2011*
 - Worked during 3 months developing distpatch_, for Gentoo Linux
 
 .. _distpatch: http://www.gentoo.org/proj/en/infrastructure/distpatch/
+
+
+Intern, CIERMag/IFSC/USP, *2011*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Software development (Python)
 
 
 Developer (Google Summer of Code), Google Inc., *2010*

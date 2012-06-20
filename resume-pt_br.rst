@@ -7,12 +7,6 @@ Rafael Gonçalves Martins
 :Telefone: 19 8300-8467
 
 
-Objetivo
---------
-Uma vaga para período integral, que possa beneficiar-se de minha formação multidisciplinar
-e de minha experiência com desenvolvimento de Software Livre.
-
-
 Formação
 --------
 
@@ -24,6 +18,22 @@ Curso: Engenharia de Controle e Automação.
 Experiência relevante
 ---------------------
 *Para mais detalhes relativos a experiência entre em contato por e-mail*
+
+
+Engenheiro de Software, Collabora Ltd., *2012 - presente*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Desenvolvimento de software
+- Garantia de qualidade
+
+
+Analista de projetos, Siemens Ltda, *2011 - 2012*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Desenvolvimento de software (IHM_, CLP_ e software dedicado)
+
+.. _IHM: http://pt.wikipedia.org/wiki/Interface_homem-m%C3%A1quina
+.. _CLP: http://pt.wikipedia.org/wiki/Controlador_l%C3%B3gico_program%C3%A1vel
 
 
 Desenvolvedor (voluntário), Gentoo Linux, *2010 - presente*
@@ -46,6 +56,12 @@ Desenvolvedor (Google Summer of Code), Google Inc., *2011*
 - Trabalhou durante 3 meses desenvolvendo o distpatch_, para o Gentoo Linux
 
 .. _distpatch: http://www.gentoo.org/proj/en/infrastructure/distpatch/
+
+
+Estagiario, CIERMag/IFSC/USP, *2011*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Desenvolvimento de software (Python)
 
 
 Desenvolvedor (Google Summer of Code), Google Inc., *2010*

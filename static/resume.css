@@ -8,7 +8,7 @@
  *
  */
 
-@font-face {
+/*@font-face {
 	font-family: 'Droid Sans';
 	font-style: normal;
 	font-weight: bold;
@@ -20,10 +20,12 @@
 	font-style: normal;
 	font-weight: normal;
 	src: url('static/fonts/DroidSans.ttf');
-}
+}*/
+
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
 
 body {
-	font-family: "Droid Sans", "Georgia", sans-serif;
+	font-family: "Droid Sans", sans-serif;
 	font-size: 17px;
 	color: #000; 
 }

@@ -26,7 +26,7 @@ resume-%.txt: resume-%.rst
 		-e "s/DATE/$(shell hg log -r . --template '{date|shortdate}')/" \
 		$< > $@
 
-resume-%.html: resume-%.txt static/html4css1.css static/resume.css $(FONTS)
+resume-%.html: resume-%.txt static/html4css1.css static/resume.css
 	$(RST2HTML) --generator --date --time --cloak-email-addresses --source-link \
 		--embed-stylesheet --initial-header-level=2 \
 		--stylesheet-path=static/html4css1.css,static/resume.css \

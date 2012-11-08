@@ -3,7 +3,7 @@ Rafael Gonçalves Martins
 
 :Email: rafael@rafaelmartins.eng.br
 :Website: http://rafaelmartins.eng.br/
-:Localização: São Paulo/SP, Brasil
+:Localização: Montes Claros/MG, Brasil
 :Telefone: 19 8300-8467
 
 
@@ -43,11 +43,10 @@ Desenvolvedor (voluntário), Gentoo Linux, *2010 - presente*
   python
 - Mantém o g-octave_
 - Líder do `subprojeto Eletrônica`_ do Gentoo Linux
-- Mantém `pacotes aleatórios`_ de várias categorias
+- Mantém pacotes aleatórios de várias categorias
 
-.. _g-octave: http://g-octave.org/
+.. _g-octave: http://git.overlays.gentoo.org/gitweb/?p=proj/g-octave.git
 .. _`subprojeto Eletrônica`: http://www.gentoo.org/proj/en/science/electronics/
-.. _`pacotes aleatórios`: http://walrus.rafaelmartins.com/~rafael/packages.txt
 
 
 Desenvolvedor (Google Summer of Code), Google Inc., *2011*

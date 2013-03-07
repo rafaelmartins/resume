@@ -3,7 +3,7 @@ Rafael Gonçalves Martins
 
 :Email: rafael@rafaelmartins.eng.br
 :Website: http://rafaelmartins.eng.br/
-:Localização: Montes Claros/MG, Brasil
+:Localização: São Paulo/SP, Brasil
 :Telefone: 19 8300-8467
 
 
@@ -20,8 +20,14 @@ Experiência relevante
 *Para mais detalhes relativos a experiência entre em contato por e-mail*
 
 
-Engenheiro de Software, Collabora Ltd., *2012 - presente*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Arquiteto de desenvolvimento, Titans Group, *2013 - presente*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Arquitetura e desenvolvimento de software
+
+
+Engenheiro de Software, Collabora Ltd., *2012*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Desenvolvimento de software
 - Garantia de qualidade

@@ -26,6 +26,19 @@ Development Architect, Titans Group, *2013 - present*
 - Software architecture and development
 
 
+Developer (volunteer), Gentoo Linux, *2010 - present*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Maintain packages of the following herds: sci-electronics, sci-mathematics,
+  python
+- Maintain g-octave_
+- Gentoo `Electronics subproject`_ lead
+- Maintain random packages of several categories
+
+.. _g-octave: http://git.overlays.gentoo.org/gitweb/?p=proj/g-octave.git
+.. _`Electronics subproject`: http://www.gentoo.org/proj/en/science/electronics/
+
+
 Software Engineer, Collabora Ltd., *2012*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -40,19 +53,6 @@ Project Analist, Siemens Ltda, *2011 - 2012*
 
 .. _HMI: http://en.wikipedia.org/wiki/Human_machine_interface
 .. _PLC: http://en.wikipedia.org/wiki/Programmable_logic_controller
-
-
-Developer (volunteer), Gentoo Linux, *2010 - present*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-- Maintain packages of the following herds: sci-electronics, sci-mathematics,
-  python
-- Maintain g-octave_
-- Gentoo `Electronics subproject`_ lead
-- Maintain random packages of several categories
-
-.. _g-octave: http://git.overlays.gentoo.org/gitweb/?p=proj/g-octave.git
-.. _`Electronics subproject`: http://www.gentoo.org/proj/en/science/electronics/
 
 
 Developer (Google Summer of Code), Google Inc., *2011*

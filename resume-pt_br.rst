@@ -26,6 +26,19 @@ Arquiteto de desenvolvimento, Titans Group, *2013 - presente*
 - Arquitetura e desenvolvimento de software
 
 
+Desenvolvedor (voluntário), Gentoo Linux, *2010 - presente*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Mantém pacotes dos seguintes *herds*: sci-electronics, sci-mathematics,
+  python
+- Mantém o g-octave_
+- Líder do `subprojeto Eletrônica`_ do Gentoo Linux
+- Mantém pacotes aleatórios de várias categorias
+
+.. _g-octave: http://git.overlays.gentoo.org/gitweb/?p=proj/g-octave.git
+.. _`subprojeto Eletrônica`: http://www.gentoo.org/proj/en/science/electronics/
+
+
 Engenheiro de Software, Collabora Ltd., *2012*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -40,19 +53,6 @@ Analista de projetos, Siemens Ltda, *2011 - 2012*
 
 .. _IHM: http://pt.wikipedia.org/wiki/Interface_homem-m%C3%A1quina
 .. _CLP: http://pt.wikipedia.org/wiki/Controlador_l%C3%B3gico_program%C3%A1vel
-
-
-Desenvolvedor (voluntário), Gentoo Linux, *2010 - presente*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-- Mantém pacotes dos seguintes *herds*: sci-electronics, sci-mathematics,
-  python
-- Mantém o g-octave_
-- Líder do `subprojeto Eletrônica`_ do Gentoo Linux
-- Mantém pacotes aleatórios de várias categorias
-
-.. _g-octave: http://git.overlays.gentoo.org/gitweb/?p=proj/g-octave.git
-.. _`subprojeto Eletrônica`: http://www.gentoo.org/proj/en/science/electronics/
 
 
 Desenvolvedor (Google Summer of Code), Google Inc., *2011*

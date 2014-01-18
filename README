@@ -2,3 +2,8 @@ This repository contains the source code and Makefile used to build my resume.
 
 This resume makes use of the Droid fonts. For information about the license of
 the fonts, please read the file 'static/fonts/README.txt'.
+
+This repository is deprecated. This thing is implemented as a blohg extension
+now:
+
+https://github.com/rafaelmartins/rafaelmartins.eng.br/tree/master/ext/blohg_resume
